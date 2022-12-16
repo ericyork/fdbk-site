@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/modnorm.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="logic.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Assignment Feedback</h1>
+      <article>
+        <p>Dear Student:</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>See you,</p>
+        <p>Eric</p>
+      </article>
+      <aside>
+        <h2>Assessment Rubric</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Criteria</th>
+              <th>E</th>
+              <th>G</th>
+              <th>S</th>
+              <th>U</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Context</td>
+            <td><input onclick="styleSelected()" type="radio" id="con1" name="context" value="excellent"></td>
+            <td><input onclick="styleSelected()" type="radio" id="con2" name="context" value="good"></td>
+            <td><input onclick="styleSelected()" type="radio" id="con3" name="context" value="satisfactory"></td>
+            <td><input onclick="styleSelected()" type="radio" id="con4" name="context" value="unsatisfactory"></td>
+          </tr>
+          <tr>
+            <td>Substance</td>
+            <td><input onclick="styleSelected()" type="radio" id="subs1" name="substance" value="excellent"></td>
+            <td><input onclick="styleSelected()" type="radio" id="subs2" name="substance" value="good"></td>
+            <td><input onclick="styleSelected()" type="radio" id="subs3" name="substance" value="satisfactory"></td>
+            <td><input onclick="styleSelected()" type="radio" id="subs4" name="substance" value="unsatisfactory"></td>
+          </tr>
+          <tr>
+            <td>Organization</td>
+            <td><input onclick="styleSelected()" type="radio" id="org1" name="organization" value="excellent"></td>
+            <td><input onclick="styleSelected()" type="radio" id="org2" name="organization" value="good"></td>
+            <td><input onclick="styleSelected()" type="radio" id="org3" name="organization" value="satisfactory"></td>
+            <td><input onclick="styleSelected()" type="radio" id="org4" name="organization" value="unsatisfactory"></td>
+          </tr>
+          <tr>
+            <td>Style</td>
+            <td><input onclick="styleSelected()" type="radio" id="styl1" name="style" value="excellent"></td>
+            <td><input onclick="styleSelected()" type="radio" id="styl2" name="style" value="good"></td>
+            <td><input onclick="styleSelected()" type="radio" id="styl3" name="style" value="satisfactory"></td>
+            <td><input onclick="styleSelected()" type="radio" id="styl4" name="style" value="unsatisfactory"></td>
+          </tr>
+          <tr>
+            <td>Delivery</td>
+            <td><input onclick="styleSelected()" type="radio" id="del1" name="delivery" value="excellent"></td>
+            <td><input onclick="styleSelected()" type="radio" id="del2" name="delivery" value="good"></td>
+            <td><input onclick="styleSelected()" type="radio" id="del3" name="delivery" value="satisfactory"></td>
+            <td><input onclick="styleSelected()" type="radio" id="del4" name="delivery" value="unsatisfactory"></td>
+          </tr>
+        </table>
+        <div class="btn-con">
+          <button onclick="clearAll()">Clear</button>
+          <button onclick="enterAll()">Submit</button>
+        </div>
+      </aside>
+    </main>
+    <!-- scripts and closing tags -->
+  </body>
+</html>

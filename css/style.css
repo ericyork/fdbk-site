@@ -1,0 +1,44 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+main {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 1rem;
+}
+main h1 {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th:first-of-type, td:first-of-type {
+  text-align: left;
+}
+td {
+}
+th, td {
+  text-align: center;
+}
+td {
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding-top: .3rem;
+}
+td input {
+  width: 1.35em;
+  height: 1.35em;
+}
+.checked {
+  background: #5dbb63;
+}
+
+.btn-con {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+}
